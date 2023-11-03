@@ -92,7 +92,7 @@ virtual_machines = {
     app-server-1 = {
         image = {
             catalog_name  = "Public Catalog"
-            template_name = "RedHat-8-Template-Official"
+            template_name = "CentOS-7-Template-Official"
         }
         memory          = 8192
         cpus            = 2
@@ -121,7 +121,7 @@ virtual_machines = {
     db-server-1 = {
         image = {
             catalog_name  = "Public Catalog"
-            template_name = "RedHat-8-Template-Official"
+            template_name = "CentOS-7-Template-Official"
         }
         memory        = 8192
         cpus          = 2
